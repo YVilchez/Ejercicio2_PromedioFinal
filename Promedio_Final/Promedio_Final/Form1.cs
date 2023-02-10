@@ -17,9 +17,9 @@ namespace Promedio_Final
             InitializeComponent();
         }
 
-        private void bt_Promedio_Click(object sender, EventArgs e)
+        private async void bt_Promedio_Click(object sender, EventArgs e)
         {
-            ecimal N1 = Convert.ToDecimal(tb_Nota1.Text);
+            decimal N1 = Convert.ToDecimal(tb_Nota1.Text);
             decimal N2 = Convert.ToDecimal(tb_Nota2.Text);
             decimal N3 = Convert.ToDecimal(tb_Nota3.Text);
             decimal N4 = Convert.ToDecimal(tb_Nota4.Text);
